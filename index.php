@@ -14,32 +14,80 @@
     <title>BookToEat</title>
 </head>
 <body>
-   <div class="container-fluid">
-    <div class="row">
-        <div class="col text-start">
-            <div class="title">Seat To Eat</div>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Seat To Eat</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col text-end">
-            <button type="button" class="btn btn-secondary">s'inscrire</button>
+    </nav>
+
+
+
+
+
+
+   <div class="container-fluid" style="padding-top: 2%">
+    <div class="row g-3">
+        <p class="text-end">
+           <button type="button" class="btn btn-secondary">s'inscrire</button> 
+        </p>
+        
+        <p class="text-start fs-1 fst-italic">Vos plats préférés ,directement à votre porte.</p>
+        <div class="col-sm-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-sm-12">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Livrer maintenant</option>
+                <option value="1">A domicile</option>
+                <option value="2">Point relais</option>
+            </select>
+        </div>
+        <div class="col-sm-12">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Choississez vos plats</option>
+                <option value="1">Pizza</option>
+                <option value="2">Burger</option>
+                <option value="3">Spaghetti </option>
+                <option value="4">...</option>
+                <option value="5">...</option>
+                <option value="6">...</option>
+            </select>
+        </div>
+        <div class="text-center">
+           <button type="button" class="btn btn-secondary">Se connecter</button> 
+        </div>
+        <p class="text-center fs-3 fst-italic">Retrouvez encore plus de  fonctionnalités dans l'application.</p>
+
+        <div class="text-center">
+            <button type="button" class="btn btn-secondary">Télécharger l'application</button>
         </div>
     </div>
-    <p><h4><strong> Vos plats préférés ,directement à votre porte.<h4></strong></p>
-    <fieldset>
-         <p><input type="text" name= "pseudo"placeholder="Saissisez votre adresse"></p>
-         <p>Livrer maintenant: 
-             <select name="Livrer maintenant">
-                <option>A domicile</option>
-                <option>Point relais</option>
-         </select>
-         </p>
-         <p><input type="text" name="pseudo"placeholder="Choississez vos plats"></p>
-         <div class="col">
-             <button type="button" class="btn btn-secondary">se connecter</button>
-         </div>
-    </fieldset>
-    <p><h5><strong>Retrouvez encore plus de  fonctionnalités dans l'application.</strong></h5></p>
-    <input type="button" value="Télécharger l'application" >
-    <p>Notre adresse Ennasr 2 ref monoprix</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <address>
+        Ecrivez-nous sur <a href="mailto:mictsumbu@27gmail.com">Mic Tsumbu</a>.<br>
+        Notre adresse : 2 ref monoprix
+    </address>
+
+</div>
+
 
 <!-- Optional JavaScript; choose one of the two! -->
 
