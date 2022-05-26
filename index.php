@@ -19,7 +19,7 @@
         <div class="col text-start">
             <div class="title">Seat To Eat</div>
         </div>
-        <div class="col text-center">#
+        <div class="col text-center">
             <button type="button" class="btn btn-secondary">s'inscrire</button>
         </div>
         <div class="col text-end">
