@@ -14,7 +14,7 @@
     <title>BookToEat</title>
 </head>
 <body>
-   <div class="container">
+   <div class="container-fluid">
     <div class="row">
         <div class="col text-start">
             <div class="title">Seat To Eat</div>
