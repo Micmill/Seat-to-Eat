@@ -32,7 +32,13 @@
    <div class="container-fluid" style="padding-top: 2%">
     <div class="row g-3">
         <p class="text-end">
-           <button type="button" class="btn btn-secondary">s'inscrire</button> 
+           <button type="button" class="btn btn-secondary">
+            <div class ="container-fluid">
+                <a href="index2.php"> sign up</a>
+                <a href="index3.php"> Log in</a>
+            </div>
+
+           </button> 
         </p>
         
         <p class="text-start fs-1 fst-italic">Vos plats préférés ,directement à votre porte.</p>
@@ -62,7 +68,9 @@
             </select>
         </div>
         <div class="text-center">
-           <button type="button" class="btn btn-secondary">Se connecter</button> 
+           <button type="button" class="btn btn-secondary">
+            <a href="index3.php"> Log in</a>
+           </button> 
         </div>
         <p class="text-center fs-3 fst-italic">Retrouvez encore plus de  fonctionnalités dans l'application.</p>
 
@@ -82,8 +90,13 @@
         Ecrivez-nous sur <a href="mailto:mictsumbu@27gmail.com">Mic Tsumbu</a>.<br>
         Notre adresse : 2 ref monoprix
     </address>
+     <div class="text-center">
+            <p><strong>About us</strong></p>
+        </div>
+        <p>Restaurant Americain situé à Tunis offrant des plats et fastfood de qualité.Fonctionnement des sites et des applications Seat to Eat Politique de confidentialité Conditions Tarifs Ne pas vendre mes données (Californie) Ce site est protégé par reCAPTCHA. Par ailleurs, la Politique de confidentialité et les Conditions d'utilisation de Google s'appliquent.
+        </p>
 
-</div>
+       </div>
 
 
 <!-- Optional JavaScript; choose one of the two! -->
