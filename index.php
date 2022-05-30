@@ -67,9 +67,31 @@
                   <option value="5">Tacos</option>
                   <option value="6">Sandwich</option>
               </select>
+
           </div>
+           </div>
+          <div class="col-sm-12">
+              <select class="form-select" aria-label="Default select example">
+                  <option selected>Tarifs et Livraison</option>
+                  <option value="1"> Partie Nord </option>
+                  <option value="2">Partie Sud </option>
+                  <option value="3">Partie Est</option>
+                  <option value="4">Partie Ouest</option>
+                
+              </select>
+
+          </div>
+          
           <div class="col-sm-12 text-center">
-              <button type="button" class="btn btn-secondary">Log in</button>
+              <button type="button" class="btn btn-secondary"><a href="commande.php">Commander maintenant</a></button>
+              </button>
+          <div class="col-sm-12">
+              <select class="form-select" aria-label="Default select example">
+                  <option selected>vos adresses recentes</option>
+                  <option value="1">Mannar 2 </option>
+                  <option value="2">Centre urbain nord</option>
+              </select>    
+
           </div>
        </div>
 
