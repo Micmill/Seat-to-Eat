@@ -11,8 +11,16 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>BookToEat</title>
+    <title>Index</title>
+
+    <style type="text/css">
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
     <nav class="navbar navbar-dark bg-warning">
         <div class="container-fluid" >
@@ -29,74 +37,79 @@
             </div>
         </div>
     </nav>
+
    <div class="container-fluid" style="padding-top: 2%">
-    <div class="row g-3">
-        <p class="text-end">
-           <button type="button" class="btn btn-secondary">
-            <div class ="container-fluid">
-                <a href="index2.php"> sign up</a>
-                <a href="index3.php"> Log in</a>
-            </div>
+       <div class="text-end">
+          <button type="button" class="btn btn-danger"><a href="signup.php">S'inscrire</a></button> 
+          <button type="button" class="btn btn-secondary"><a href="login.php">Se Connecter</a></button>
+       </div>
 
-           </button> 
-        </p>
-        
-        <p class="text-start fs-1 fst-italic">Vos plats préférés ,directement à votre porte.</p>
-        <i class="fas fa-car"></i>
-        <div class="col-sm-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-sm-12">
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Livrer maintenant</option>
-                <option value="1">A domicile</option>
-                <option value="2">Point relais</option>
-            </select>
-        </div>
-        <div class="col-sm-12" >
-            <select class="form-select" aria-label="Default select example">
-                <img src="Fichier JPG.jpg" class="img-fluid" alt="">
+       <p class="text-start fs-1 fst-italic">Vos plats préférés ,directement à votre porte.</p>
+       <div class="row g-3">
+          <div class="col-sm-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-sm-12">
+              <select class="form-select" aria-label="Default select example">
+                  <option selected>Livrer maintenant</option>
+                  <option value="1">A domicile</option>
+                  <option value="2">Point relais</option>
+              </select>
+          </div>
+          <div class="col-sm-12">
+              <select class="form-select" aria-label="Default select example">
+                  <option selected>Choississez vos plats</option>
+                  <option value="1">Pizza</option>
+                  <option value="2">Burger</option>
+                  <option value="3">Spaghetti </option>
+                  <option value="4">Souchi</option>
+                  <option value="5">Tacos</option>
+                  <option value="6">Sandwich</option>
+              </select>
+          </div>
+          <div class="col-sm-12 text-center">
+              <button type="button" class="btn btn-secondary">Log in</button>
+          </div>
+       </div>
 
-                <option selected>Choississez vos plats</option>
-                <option value="1">Pizza</option>
-                <option value="2">Burger</option>
-                <option value="3">Spaghetti </option>
-                <option value="4">Souchi</option>
-                <option value="5">Tacos</option>
-                <option value="6">Sandwich</option>
-            </select>
-        </div>
-        <div class="text-center">
-           <button type="button" class="btn btn-secondary">
-            <a href="index3.php"> Log in</a>
-           </button> 
-        </div>
-        <p class="text-center fs-3 fst-italic">Retrouvez encore plus de  fonctionnalités dans l'application.</p>
+       <div class="aboutUs" style="padding-top: 3%;">
+           <p class="text-center fs-1">About Us</p>
+           <p class="text-start fs-3">
+               Restaurant Americain situé à Tunis offrant des plats et fastfood de qualité.Fonctionnement des sites et des applications Seat to Eat Politique de confidentialité Conditions Tarifs Ne pas vendre mes données (Californie) Ce site est protégé par reCAPTCHA. Par ailleurs, la Politique de confidentialité et les Conditions d'utilisation de Google s'appliquent.
+           </p>
+       </div>
 
-        <div class="text-center">
-            <button type="button" class="btn btn-secondary">Télécharger l'application</button>
-        </div>
-    </div>
+  
+       
+       <div class="text-center" style="padding-top: 3%">
+           <button type="button" class="btn btn-secondary">Télécharger l'application</button>
+           <p class="fs-3 ">Retrouvez encore plus de  fonctionnalités dans l'application.</p>
+       </div>
+
+
+
+   </div>
+
+
     <br>
     <br>
     <br>
     <br>
     <br>
     <br>
+
+
+
+
+
+
 
 
     <address>
         Ecrivez-nous sur <a href="mailto:mictsumbu@27gmail.com">Mic Tsumbu</a>.<br>
         Notre adresse : 2 ref monoprix
     </address>
-     <div class="text-center">
-            <p><strong>About us</strong></p>
-        </div>
-        <p>Restaurant Americain situé à Tunis offrant des plats et fastfood de qualité.Fonctionnement des sites et des applications Seat to Eat Politique de confidentialité Conditions Tarifs Ne pas vendre mes données (Californie) Ce site est protégé par reCAPTCHA. Par ailleurs, la Politique de confidentialité et les Conditions d'utilisation de Google s'appliquent.
-        </p>
-
-       </div>
 
 
 <!-- Optional JavaScript; choose one of the two! -->
