@@ -26,8 +26,9 @@
         <div class="container-fluid" >
             <a class="navbar-brand" href="#">Seat To Eat</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" ><p></span>
             </button>
+            </div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -36,7 +37,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>      <img src="San.jpg">
 
    <div class="container-fluid" style="padding-top: 2%">
        <div class="text-end">
@@ -102,17 +103,12 @@
            </p>
        </div>
 
-  
+           <div class="col-sm-12 text-center">
+              <button type="button" class="btn btn-secondary"><a href="telechargement.php">Télécharger maintenant</a></button>
+              </button>
        
-       <div class="text-center" style="padding-top: 3%">
-           <button type="button" class="btn btn-secondary">Télécharger l'application</button>
            <p class="fs-3 ">Retrouvez encore plus de  fonctionnalités dans l'application.</p>
        </div>
-
-
-
-   </div>
-
 
     <br>
     <br>
@@ -129,7 +125,7 @@
 
 
     <address>
-        Ecrivez-nous sur <a href="mailto:mictsumbu@27gmail.com">Mic Tsumbu</a>.<br>
+        Ecrivez-nous sur mictsumbu2704@gmail.com.<br>
         Notre adresse : 2 ref monoprix
     </address>
 
