@@ -246,13 +246,13 @@
               <ul style="font-size: 25px"><i class="bi bi-envelope"></i> example9@gmail.com</ul>
             </div>
             <div class="col-sm-6">
-              <ul style="font-size: 25px"><i class="bi bi-telephone"></i> +254 717840508</ul>
+              <ul style="font-size: 25px"><i class="bi bi-telephone"></i> +216 71784050</ul>
               <ul style="font-size: 25px"><i class="bi bi-globe2"></i> seattoeat.com</ul>
             </div>
           </div>
           
           <form method="POST">
-            <p class="text-start fs-2 fw-bold">CONTACTER NOUS</p>
+            <p class="text-start fs-2 fw-bold">CONTACTEZ-NOUS</p>
             <div class="row g-3">
               <div class="col-sm-6">
                 <input type="text" class="form-control" placeholder="Entrez votre Prenom" required="required">
