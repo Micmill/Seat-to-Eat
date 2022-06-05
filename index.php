@@ -9,106 +9,279 @@
     <link rel="stylesheet" type="text/css" href="">
     <!-- Footawesome icons link  -->
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Index</title>
 
     <style type="text/css">
-        a{
-            text-decoration: none;
-            color: white;
+        .top-right{
+          position: absolute;
+          top: 6%;
+          padding-left: 78%;
+       
         }
+
+        .top-left {
+          position: absolute;
+          top: 35%;
+          left: 16px;
+          font-size: 68px;
+       }
+       .gauche{
+         position: absolute;
+          top: 2%;
+          left: 16px;
+          font-size: 68px;
+       }
+
+       .divider{
+            width: 100%;
+            padding-top: 2px;
+            background-color: gray;
+            display: inline-block;
+         }
+
+         a{
+          text-decoration: none;
+          color: black;
+         }
+
+         #button1{
+          background-color: black;
+          color: white;
+          font-size: 30px;
+         }
+
+         #button2{
+          background-color: beige;
+          color: black;
+          font-size: 30px;
+         }
+        
+
+
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-warning">
-        <div class="container-fluid" >
-            <a class="navbar-brand" href="#">Seat To Eat</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" ><p></span>
-            </button>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                </ul>
-            </div>
+  <div class="nav">
+    <img src="images/sushi.jpg" width="100%">
+    <div class="top-right">
+      <div class="row">
+        <div class="col-sm-6 text-end">
+          <li>
+            <a href="login.php">
+              <button id="button1" type="submit" class="btn">CONNECTION</button>
+            </a>
+          </li>
         </div>
-    </nav>      <img src="San.jpg">
+        <div class="col-sm-6 text-end">
+          <li>
+            <a href="signup.php">
+              <button id="button2" type="submit" class="btn">S'INSCRIRE</button>
+            </a>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="gauche">
+      <p>SEAT TO EAT</p>
+    </div>
+    <div class="top-left">
+      <p class="fw-bold">Entrez votre localisation</p>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Commande</button>
+      </form>
+    </div>
+  </div>
 
-   <div class="container-fluid" style="padding-top: 2%">
-       <div class="text-end">
-          <button type="button" class="btn btn-danger"><a href="signup.php">S'inscrire</a></button> 
-          <button type="button" class="btn btn-secondary"><a href="login.php">Se Connecter</a></button>
-       </div>
+  <div class="container-fluid" style="padding-top: 6%">
+    <p class="text-center fs-1 fw-bold">MENUS</p>
+    <div class="row g-3">
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/Sandwich.jpg">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/burgers.jpg">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/macaronni.jpg">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/spaghetti.jpg">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/shawarma.jpg">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/tacos.jpg">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/milkshakes.jpg">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/coffee.jpg">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/coca.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
 
-       <p class="text-start fs-1 fst-italic">Vos plats préférés ,directement à votre porte.</p>
-       <div class="row g-3">
-          <div class="col-sm-12">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  <div class="container-fluid" style="padding-top: 6%">
+    <p class="text-center fs-1 fw-bold">EXPLORER SEAT TO EAT</p>
+    <div class="row ">
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/deliver.jpg">
+        </div>
+        <p class="fs-3 fw-bold">Vos plats préférés ,directement à votre porte.</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/cooking.jpg">
+        </div>
+        <p class="fs-3 fw-bold">Des cuisiniers de qualité pour des bons repas.</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="images/feedCustomers.jpg">
+        </div>
+        <p class="fs-3 fw-bold">Dégustez les plats de chez nous.</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="about"  style="padding-top: 5%">
+    <div class="container-fluid">
+      <p class="text-center fs-1 fw-bold">A PROPOS DE SEAT TO EAT</p>
+      <p class="text-center fs-3">
+        Restaurant Americain situé à Tunis offrant des plats et fastfood de qualité. Fonctionnement des sites et des applications SEAT TO EAt Politique de confidentialité conditions tarifs ne pas vendre mes données(Californie). Ce site est protégé par RECAPTCHA. Par ailleurs, la Politique de confidentialité et les Conditions d'utilisation de Google s'appliquent.
+      </p>
+    </div>
+  </section>
+
+ 
+
+  <section id="pays">
+    <div class="container-fluid" style="padding-top: 5%">
+    <p class="text-start fs-1 fw-bold">PAYS AVEC SEAT TO EAT</p>
+    <div class="row">
+      <div class="col-sm-4 fs-4 fst-italic">
+          <ul>République démocratique du Congo</ul>
+          <ul>Gabon</ul>
+          <ul>Tunisie</ul>
+          <ul>Maroc</ul>
+      </div>
+      <div class="col-sm-4 fs-4 fst-italic">
+        <ul>Kenya</ul>
+        <ul>Tanzanie</ul>
+        <ul>Ouganda</ul>
+        <ul>Burundi</ul>
+      </div>
+      <div class="col-sm-4 fs-4 fst-italic">
+        <ul>Comore</ul>
+        <ul>Cameroun</ul>
+        <ul>Congo Brazzaville</ul>
+        <ul>Algerie</ul>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  
+
+  <span class="divider"></span>
+
+  <div class="container-fluid" style="padding-top: 5%">
+    <div class="row ">
+      <div class="col-sm-6">
+        <p class="fs-1 fw-bold">SEAT TO EAT</p>
+      </div>
+      <div class="col-sm-6">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <a href="#pays">VOIR TOUT LES PAYS</a>
           </div>
-          <div class="col-sm-12">
-              <select class="form-select" aria-label="Default select example">
-                  <option selected>Livrer maintenant</option>
-                  <option value="1">A domicile</option>
-                  <option value="2">Point relais</option>
-              </select>
+          <div class="col-sm-6">
+            <a href="#about">A PROPOS DE SEAT TO EAT</a>
           </div>
-          <div class="col-sm-12">
-              <select class="form-select" aria-label="Default select example">
-                  <option selected>Choississez vos plats</option>
-                  <option value="1">Pizza</option>
-                  <option value="2">Burger</option>
-                  <option value="3">Spaghetti </option>
-                  <option value="4">Souchi</option>
-                  <option value="5">Tacos</option>
-                  <option value="6">Sandwich</option>
-              </select>
-
+          <div class="col-sm-6">
+            <a href="signup.php">S'INSCRIRE POUR COMMANDER</a>
           </div>
-           </div>
-          <div class="col-sm-12">
-              <select class="form-select" aria-label="Default select example">
-                  <option selected>Tarifs et Livraison</option>
-                  <option value="1"> Partie Nord </option>
-                  <option value="2">Partie Sud </option>
-                  <option value="3">Partie Est</option>
-                  <option value="4">Partie Ouest</option>
-                
-              </select>
+          <div class="col-sm-6">
+            <a href="login.php">SE CONNECTER POUR COMMANDER</a>
+          </div>
 
+          <p class="text-start fs-2 fw-bold">SUIVEZ-NOUS SUR</p>
+          <ul style="font-size: 25px"><i class="bi bi-instagram"></i> Example_</ul>
+          <ul style="font-size: 25px"><i class="bi bi-facebook"></i> Example_</ul>
+          <ul style="font-size: 25px"></ul>
+
+          <p class="text-start fs-2 fw-bold">NOS INFOS</p>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <ul style="font-size: 25px"><i class="bi bi-telephone"></i> +11 75851229</ul>
+              <ul style="font-size: 25px"><i class="bi bi-envelope"></i> example9@gmail.com</ul>
+            </div>
+            <div class="col-sm-6">
+              <ul style="font-size: 25px"><i class="bi bi-telephone"></i> +254 717840508</ul>
+              <ul style="font-size: 25px"><i class="bi bi-globe2"></i> seattoeat.com</ul>
+            </div>
           </div>
           
-          <div class="col-sm-12 text-center">
-              <button type="button" class="btn btn-secondary"><a href="commande.php">Commander maintenant</a></button>
-              </button>
-          <div class="col-sm-12">
-              <select class="form-select" aria-label="Default select example">
-                  <option selected>vos adresses recentes</option>
-                  <option value="1">Mannar 2 </option>
-                  <option value="2">Centre urbain nord</option>
-              </select>    
+          <form method="POST">
+            <p class="text-start fs-2 fw-bold">CONTACTER NOUS</p>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="Entrez votre Prenom" required="required">
+              </div>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="Entrez votre Nom" required="required">
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" required="required" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Laissez votre message</label>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary">ENVOYER</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          </div>
-       </div>
+   
+   
+  
+  
+</div> 
 
-       <div class="aboutUs" style="padding-top: 3%;">
-           <p class="text-center fs-1">About Us</p>
-           <p class="text-start fs-3">
-               Restaurant Americain situé à Tunis offrant des plats et fastfood de qualité.Fonctionnement des sites et des applications Seat to Eat Politique de confidentialité Conditions Tarifs Ne pas vendre mes données (Californie) Ce site est protégé par reCAPTCHA. Par ailleurs, la Politique de confidentialité et les Conditions d'utilisation de Google s'appliquent.
-           </p>
-       </div>
 
-           <div class="col-sm-12 text-center">
-              <button type="button" class="btn btn-secondary"><a href="telechargement.php">Télécharger maintenant</a></button>
-              </button>
-       
-           <p class="fs-3 ">Retrouvez encore plus de  fonctionnalités dans l'application.</p>
-       </div>
+
 
     <br>
     <br>
@@ -119,15 +292,6 @@
 
 
 
-
-
-
-
-
-    <address>
-        Ecrivez-nous sur mictsumbu2704@gmail.com.<br>
-        Notre adresse : 2 ref monoprix
-    </address>
 
 
 <!-- Optional JavaScript; choose one of the two! -->
