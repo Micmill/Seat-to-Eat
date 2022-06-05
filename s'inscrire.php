@@ -9,63 +9,49 @@
     <link rel="stylesheet" type="text/css" href="">
     <!-- Footawesome icons link  -->
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Sign Up</title>
 
     <style type="text/css">
-        a{
-            text-decoration: none;
-            color: white;
+        body{
+          background-color: beige;
         }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-warning">
-        <div class="container-fluid" >
-            <a class="navbar-brand" href="#">Seat To Eat</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="container" style="padding-top: 16%">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded">
+        <p class="text-center" style="font-size: 80px"></p>
+        <p class="text-center fs-1 fw-bold">S'INSCRIRE</p>
+        <div class="row g-3">
+          <div class="col-sm-12">
+            <label for="inputAddress" class="form-label">Nom</label>
+            <input type="text" class="form-control"  placeholder="Tapez votre Nom">
+          </div>
+          <div class="col-sm-12">
+            <label for="inputAddress" class="form-label">Prenom</label>
+            <input type="text" class="form-control"  placeholder="Tapez votre Prenom">
+          </div>
+          <div class="col-sm-12">
+            <label for="inputAddress" class="form-label">Mot de Passe</label>
+            <input type="text" class="form-control"  placeholder="Nouveau mot de passe"> 
+          </div>
+          <div class="col-sm-12">
+            <label for="inputAddress" class="form-label">Confirmez Mot de Passe</label>
+            <input type="text" class="form-control"  placeholder="Confirmez mot de passe">
+          </div>
+          <div class="d-grid">
+            <button type="button" class="btn btn-secondary">S'INSCRIRE</button>
+          </div>
         </div>
-    </nav>
-
-   <div class="container" style="padding-top: 2%">
-   	<p class="text-center fs-1">SIGN UP</p>
-       
-       <div class="row g-3">
-          <div class="col-sm-12">
-              <label for="inputAddress" class="form-label">Nom</label>
-              <input type="text" class="form-control"  placeholder="Tapez votre Nom">
-          </div>
-          <div class="col-sm-12">
-             <label for="inputAddress" class="form-label">Prenom</label>
-             <input type="text" class="form-control"  placeholder="Tapez votre Prenom">
-          </div>
-          <div class="col-sm-12">
-             <label for="inputAddress" class="form-label">Mot de Passe</label>
-             <input type="text" class="form-control"  placeholder="Nouveau mot de passe"> 
-          </div>
-
-          <div class="col-sm-12">
-          	<label for="inputAddress" class="form-label">Confirmez Mot de Passe</label>
-          	<input type="text" class="form-control"  placeholder="Confirmez mot de passe">
-          </div>
-          <div class="col-sm-12 text-center">
-              <button type="button" class="btn btn-secondary">Sign Up</button>
-          </div>
-       </div>
+      </div>
+    </div>
 
 
-   </div>
 
 
 
