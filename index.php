@@ -72,14 +72,14 @@
       <div class="row">
         <div class="col-sm-6 text-end">
           <li>
-            <a href="login.php">
+            <a href="seconnecter.php">
               <button id="button1" type="submit" class="btn">CONNECTION</button>
             </a>
           </li>
         </div>
         <div class="col-sm-6 text-end">
           <li>
-            <a href="signup.php">
+            <a href="s'inscrire.php">
               <button id="button2" type="submit" class="btn">S'INSCRIRE</button>
             </a>
           </li>
@@ -228,10 +228,10 @@
             <a href="#about">A PROPOS DE SEAT TO EAT</a>
           </div>
           <div class="col-sm-6">
-            <a href="signup.php">S'INSCRIRE POUR COMMANDER</a>
+            <a href="s'inscrire.php">S'INSCRIRE POUR COMMANDER</a>
           </div>
           <div class="col-sm-6">
-            <a href="login.php">SE CONNECTER POUR COMMANDER</a>
+            <a href="seconnecter.php">SE CONNECTER POUR COMMANDER</a>
           </div>
 
           <p class="text-start fs-2 fw-bold">SUIVEZ-NOUS SUR</p>
