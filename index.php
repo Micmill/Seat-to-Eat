@@ -6,7 +6,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Link css page -->
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <!-- Footawesome icons link  -->
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <!-- Bootstrap icons -->
@@ -15,54 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Index</title>
 
-    <style type="text/css">
-        .top-right{
-          position: absolute;
-          top: 6%;
-          padding-left: 78%;
-       
-        }
-
-        .top-left {
-          position: absolute;
-          top: 35%;
-          left: 16px;
-          font-size: 68px;
-       }
-       .gauche{
-         position: absolute;
-          top: 2%;
-          left: 16px;
-          font-size: 68px;
-       }
-
-       .divider{
-            width: 100%;
-            padding-top: 2px;
-            background-color: gray;
-            display: inline-block;
-         }
-
-         a{
-          text-decoration: none;
-          color: black;
-         }
-
-         #button1{
-          background-color: black;
-          color: white;
-          font-size: 30px;
-         }
-
-         #button2{
-          background-color: beige;
-          color: black;
-          font-size: 30px;
-         }
-        
-
-
-    </style>
 </head>
 
 <body>
