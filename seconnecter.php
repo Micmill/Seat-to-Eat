@@ -9,54 +9,48 @@
     <link rel="stylesheet" type="text/css" href="">
     <!-- Footawesome icons link  -->
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Login</title>
+    <title>Se connecter</title>
 
     <style type="text/css">
-        a{
-            text-decoration: none;
-            color: white;
-        }
+      body{
+        background-color: beige;
+      }
     </style>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-warning">
-        <div class="container-fluid" >
-            <a class="navbar-brand" href="#">Seat To Eat</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                </ul>
-            </div>
+  <div class="container" style="padding-top: 16%">
+    <div class="shadow-lg p-3 mb-5 bg-body rounded">
+      <p class="text-center" style="font-size: 80px"><i class="bi bi-person-circle"></i></p>
+      <p class="text-center fs-1 fw-bold">SE CONNECTER</p>
+      <div class="row g-3">
+        <div class="col-sm-12">
+          <label for="inputNom" class="form-label">Nom d'utilisateur</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Tapez votre Nom d'utilisateur">
         </div>
-    </nav>
+        <div class="col-sm-12">
+          <label for="inputMotDePasse" class="form-label">Mot de Passe</label>
+          <input type="password" class="form-control" id="inputAddress" placeholder="Tapez votre Mot de Passe">
+        </div>
+        <div class="d-grid">
+          <button type="button" class="btn btn-secondary">SE CONNECTER</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+      
+   
 
-   <div class="container" style="padding-top: 2%">
-       <div class="row g-3">
-       	<p class="text-center fs-1">LOG IN</p>
-          <div class="col-sm-12">
-              <label for="inputNom" class="form-label">Nom d'utilisateur</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Tapez votre Nom d'utilisateur">
-          </div>
-          <div class="col-sm-12">
-             <label for="inputMotDePasse" class="form-label">Mot de Passe</label>
-             <input type="password" class="form-control" id="inputAddress" placeholder="Tapez votre Mot de Passe">
-          </div>
-          
-          <div class="col-sm-12 text-center">
-              <button type="button" class="btn btn-secondary">Log in</button>
-          </div>
-       </div>
-
-   </div>
-
+              
+     
+              
+      
 
    
 
@@ -78,5 +72,4 @@
 
 </body>
 </html>
-
 
