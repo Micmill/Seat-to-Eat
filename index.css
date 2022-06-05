@@ -1,0 +1,49 @@
+/* couleur background pour toutes les pages*/
+body{
+	background-color: beige;
+}
+
+/*Style Index.php*/
+.top-right{
+    position: absolute;
+    top: 6%;
+    padding-left: 78%;     
+ }
+
+.top-left {
+    position: absolute;
+    top: 35%;
+    left: 16px;
+    font-size: 68px;
+ }
+
+.gauche{
+    position: absolute;
+    top: 2%;
+    left: 16px;
+    font-size: 68px;
+ }
+
+.divider{
+    width: 100%;
+    padding-top: 2px;
+    background-color: gray;
+    display: inline-block;
+ }
+
+a{
+    text-decoration: none;
+    color: black;
+ }
+
+#button1{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+ }
+
+#button2{
+    background-color: beige;
+    color: black;
+    font-size: 30px;
+ }
